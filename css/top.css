@@ -1,0 +1,36 @@
+#word {
+  color: black;
+}
+
+body {
+  margin: 0;
+  background: #eeeeee;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+
+#card {
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 100px;
+  perspective: 100px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#btn {
+  width: 33%;
+  padding: 7px;
+  margin: 20px;
+  border-radius: 5px;
+  background: #00aaff;
+  box-shadow: 0 4px 0 #0088cc;
+  cursor: pointer;
+}
+#btn:hover {
+  opacity: 0.8;
+}
